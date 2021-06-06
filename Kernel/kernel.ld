@@ -1,5 +1,5 @@
 OUTPUT_FORMAT("binary")
-ENTRY(loader)
+STARTUP(loader.o)
 SECTIONS
 {
 	.text 0x100000 :
